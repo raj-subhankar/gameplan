@@ -16,9 +16,8 @@ const store = createStore(
   applyMiddleware(thunk.withExtraArgument({ getFirebase })));
 
   const rrfConfig = {
-    userProfile: "users",
-    useFirestoreForProfile: true,
-    enableClaims: true
+    userProfile: 'users',
+    useFirestoreForProfile: true
   };
 
 const rrfProps = {
